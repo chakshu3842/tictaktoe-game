@@ -62,8 +62,7 @@ function App() {
   return (
     <div className="app">
       <h1>
-        <span className="text-orange">TIK</span>{' '}
-        <span className="text-green">TAC</span> TOE
+        TIK <span className="text-green">TAC</span> TOE
       </h1>
       <StatusMessage winner={winner} gameingBoard={gameingBoard} />
       <Board
@@ -88,6 +87,7 @@ function App() {
         Current game History:
       </h2>
       <History history={history} moveTo={moveTo} currentMove={currentMove} />
+      <div className="bg-balls" />
     </div>
   );
 }
