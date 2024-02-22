@@ -92,7 +92,7 @@ function App() {
         className="footer"
         style={{
           display: 'flex',
-          fontSize: '20px',
+          fontSize: '10px',
           flexDirection: 'column',
           bottom: 0,
           left: 0,
