@@ -95,7 +95,8 @@ function App() {
           fontSize: '20px',
           flexDirection: 'column',
           bottom: 0,
-          position: 'absolute',
+          position: 'fixed',
+          alignItems: 'center',
         }}
       >
         Copyright &copy; Chakshu Shandilya 2024 - 25
