@@ -1,7 +1,9 @@
 import Square from './Square';
 
+// eslint-disable-next-line react/prop-types
 const Board = ({ squares, handleSquareClick, winningSquares }) => {
   const renderSquare = position => {
+    // eslint-disable-next-line react/prop-types
     const isWinningSquare = winningSquares.includes(position);
     return (
       <Square
