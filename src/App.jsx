@@ -88,6 +88,18 @@ function App() {
       </h2>
       <History history={history} moveTo={moveTo} currentMove={currentMove} />
       <div className="bg-balls" />
+      <div
+        className="footer"
+        style={{
+          display: 'flex',
+          fontSize: '20px',
+          flexDirection: 'column',
+          bottom: 0,
+          position: 'absolute',
+        }}
+      >
+        Copyright &copy; Chakshu Shandilya 2024 - 25
+      </div>
     </div>
   );
 }
